@@ -1,0 +1,9 @@
+#Custom directories
+build/
+build_android/
+output/
+__pycache__/
+
+capture/libs
+
+

@@ -1,0 +1,9 @@
+#>>>>>>>>>>>>> stereo config <<<<<<<<<<<<<<<<
+
+data_root: /home/soc/proj_dev/3D-Hand-Pose-Estimation-StereoCamera-Mediapipe-MMPose/viture/
+device_type: stereo #stereo
+
+images_data: 3
+left_calib_data: 3_left
+right_calib_data: 3_right
+

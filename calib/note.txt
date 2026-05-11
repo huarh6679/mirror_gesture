@@ -1,0 +1,5 @@
+./split_stereo ../stereo_split.yaml
+ffmpeg -r 10 -f image2 -i 1/%d.png output.mp4
+
+./stereo_calib ../calib_config.ini 
+./stereo_calib --undistort /home/yd/mirror/viture/calibration_fisheye.yaml /home/yd/mirror/viture/left/left.png /home/yd/mirror/viture/right/_right.png
